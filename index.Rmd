@@ -190,6 +190,19 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 
+# Cache GitHub Credentials - Windows 
+
+[Old way, view in Wayback Machine](http://web.archive.org/web/20210623164015/https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+
+```bash
+git config --global credential.helper wincred
+```
+<br>
+<br>
+
+[New way, using GitHub CLI or Git Credential Manager](https://docs.github.com/en/enterprise-server@3.4/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+
+
 
 # Common Commands
 
