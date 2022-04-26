@@ -1,7 +1,6 @@
 
 *.html
 *.Rhistory
-*.pptx
 .Rproj.user
 *.Rproj
 
