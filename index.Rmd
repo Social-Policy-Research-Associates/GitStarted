@@ -72,7 +72,7 @@ Go to [github.com](https://github.com/) and click either on the large green butt
 
 ## Access Repositories 
 
-1. Inform relavent colleague(s) of the username you created (it's usually Josh)
+1. Inform relavent colleague(s) of the username you created 
 1. Once username is given, individuals can give you an invitation to access to a repository, which you will receive via email 
 1. Accept the invitation by clicking "View Invitation" button sent in the email.  This will take you to the GitHub page and now you can access the repository.
 <img class= "screenshot" src="img/creategithub/03githubinvite.png"> 
@@ -176,6 +176,19 @@ The URL should now be the updated version.  <br>
   
 <br><br>  
 ![](img/git-flow-chart-v3.png)
+
+# Rename Branch from 'master' to 'main' 
+
+Click on the `1 branch`/`# branches` icon at the top left of the codes on the home pages of a repository.  You should see a window that specifies all the current branches as well as the default branch.  Click on the edit icon (pencil on far right) to rename branch.  
+
+After renaming the branch on the web interface, then go to your local clone, open bash and type in the following: 
+
+```bash
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
 
 
 # Common Commands
